@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>KlikTasik</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/kliktasik.css">
+        <!-- Bootstrap -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Open+Sans+Condensed:300,400|Passion+One|Dosis:300" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.zoom').hover(function() {
+                    $(this).addClass('transition');
+                }, function() {
+                    $(this).removeClass('transition');
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(window).load(function () {
+                // Preloader
+                $('.loader').fadeOut();
+                $('.loader-mask').delay(350).fadeOut('slow');
+            });
+        </script> 
+    </head>
+
+    <body>
+        <img src="img/bg-batik.png" class="bg">
+        <div class="container-fluid">
+            <div class="judul">
+                <h1 class="text-center">KlikTasik</h1>
+                <p class="text-center">Semua Tentang Tasikmalaya Ada Di Sini</p>    
+            </div>
+            <div class="formcari">
+                    <div class="input-group cari">
+                            <input type="text" class="form-control" placeholder="Cari apa di Tasikmalaya">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+                    </div>    
+            </div>
+        </div>
+            <div class="konten">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_edu.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Pendidikan</p></a>     
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_lib.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Perpustakaan</p>     
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_news.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Berita</p></a>     
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_forum.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Forum Tasik</p></a> 
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_umkm.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">UMKM</p></a>     
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_tour.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Pariwisata</p></a>     
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_health.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Kesehatan</p></a>     
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_police.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Halo Polisi</p></a>    
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_dzikr.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Indonesia Berdzikir</p></a>   
+                        </div>
+                        <div class="col-xs-3 col-sm-15 icons">
+                            <a href="#"><img src="icon/icon_zakat.png" alt="" class="img-responsive zoom">
+                            <p class="text-center">Dana Umat</p></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+        <div class="container">
+            <div class="row foot">
+                <div class="col-xs-12 col-md-8 text-left text-xs-center">
+                    <h4>Supported by:</h4>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-3">
+                                <img src="icon/icon_spi.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 col-md-3">
+                                <img src="icon/icon_tdv.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 col-md-3">
+                                <img src="icon/icon_kp.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-4 col-xs-12 text-left text-xs-center">
+                    <h4>Tentang <strong>KlikTasik</strong></h4>
+                    <p>Klik Tasik adalah portal informasi terpusat dan terpadu di Tasikmalaya.<br><a href="#">Selengkapnya ...</a></p>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2017 Digital Valley Tasikmalaya</p>
+                </div>
+            </div>
+      </div>
+
+  </footer>
+
+  
+</html>
