@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
     $('.zoom').hover(function() {
         $(this).addClass('transition');
@@ -6,4 +5,3 @@ $(document).ready(function(){
         $(this).removeClass('transition');
     });
 });
-</script>

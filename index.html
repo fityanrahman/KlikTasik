@@ -13,25 +13,16 @@
         <!-- Bootstrap -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Open+Sans+Condensed:300,400|Passion+One|Dosis:300" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.zoom').hover(function() {
-                    $(this).addClass('transition');
-                }, function() {
-                    $(this).removeClass('transition');
-                });
-            });
-        </script>
-        <script type="text/javascript">
-            $(window).load(function () {
-                // Preloader
-                $('.loader').fadeOut();
-                $('.loader-mask').delay(350).fadeOut('slow');
-            });
-        </script> 
+        <script src="js/clikZoom.js"></script>
+        <script src="js/preloader.js"></script>
     </head>
 
     <body>
+        <!--Preloader-->
+        <div class="js">
+            <div id="preloader"></div>
+        </div>
+        <!--Preloader-->
         <img src="img/bg-batik.png" class="bg">
         <div class="container-fluid">
             <div class="judul">
@@ -53,9 +44,22 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-3 col-sm-15 icons">
-                            <a href="#"><img src="icon/icon_edu.png" alt="" class="img-responsive zoom">
+                            <a href="#"><img src="icon/icon_edu.png" alt="" class="img-responsive zoom"> 
+                                <!--data-toggle="modal" data-target="#modalEdu"-->
                             <p class="text-center">Pendidikan</p></a>     
                         </div>
+                        <!--Modal Edu
+                        <div class="modal fade" id="modalEdu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog modal-sm" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <a href="#">Sekolah</a>
+                                        <br><a href="#">Pesantren</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        Modal Edu-->
                         <div class="col-xs-3 col-sm-15 icons">
                             <a href="#"><img src="icon/icon_lib.png" alt="" class="img-responsive zoom">
                             <p class="text-center">Perpustakaan</p>     

@@ -1,5 +1,4 @@
 .judul{
-    background-image: url("img/bg-batik.png");    
     margin-top: 50px;
     /*color: #63b794;*/
     color: #774610;
@@ -164,3 +163,17 @@ footer .img-responsive{
     }
 }
 /*Bootstrap 5 Column*/
+
+/*preloader*/
+.js div#preloader { 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 999; 
+    width: 100%; 
+    height: 100%; 
+    overflow: visible; 
+    background: rgb(255, 255, 255) url('../img/preloader.gif') no-repeat center center; 
+    background-size: 7%;
+}
+/*preloader*/
